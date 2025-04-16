@@ -115,12 +115,12 @@
 // Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
 // повертати з функції рядок - 'Not a number!'.
 
-function min(a, b) {
-    if (typeof a !== "number" || typeof b !== "number") {
-        return "Not a number!";
-    }
-        return a < b ? a : b;
-}
+// function min(a, b) {
+//     if (typeof a !== "number" || typeof b !== "number") {
+//         return "Not a number!";
+//     }
+//         return a < b ? a : b;
+// }
 
-console.log(min(20, 15));
-console.log(min(7, 'abc'));
+// console.log(min(20, 15));
+// console.log(min(7, 'abc'));
